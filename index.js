@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { appendUserToSheet } = require('./googleSheet');
 const app = express();
-const port = process.env.PORT || 3007;
+const port = process.env.PORT || 3006;
 
 app.use(bodyParser.json());
 
